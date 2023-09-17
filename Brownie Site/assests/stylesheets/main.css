@@ -45,17 +45,57 @@ table {
 /* ^^ EVERYTHING ABOVE IT STANDARD RESET. DO NOT CHANGE ^^ */
 /* EVERYTHING BELOW THIS POINT IS OKAY TO CHANGE. THINGS LOWER, TAKE PRIORITY OVER THINGS ABOVE */
 
-h1{
-	color: red
+#navbar{
+	background-color: red;
+	color: white;
+	font-size: 42px;
+	text-align: center;
+}
+
+.Brownies{
+	width: auto;
+	height: 30%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #related {
 	background-color: burlywood;
 }
 
-.sideelemets s.preptime{
+.sideelements {
 	float: right;
+	background-color: blanchedalmond;
+	box-sizing: border-box;
+	width: 33%;
+	border: solid #000000;
+	border-radius: 15px 30px;
+	padding: auto;
 }
+
+.sideelements h2, .sideelements h4{
+	color: aliceblue;
+	background-color: #000000;
+	font-size: 24px;
+	margin-right: auto;
+	text-align: center;
+}
+
+.sideelements span{
+	margin-right: auto;
+	text-align: center;
+}
+
+#ingredents {
+	
+}
+
+#directions {
+	
+}
+
+
 
 /* to set things based on a class element do
 .classname {
