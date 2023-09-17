@@ -53,7 +53,9 @@ h1{
 	background-color: burlywood;
 }
 
-
+.sideelemets s.preptime{
+	float: right;
+}
 
 /* to set things based on a class element do
 .classname {
